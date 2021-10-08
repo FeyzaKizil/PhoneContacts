@@ -1,0 +1,9 @@
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\DatabaseLogicLayer\obj\Debug\DatabaseLogicLayer.csproj.AssemblyReference.cache
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\DatabaseLogicLayer\obj\Debug\DatabaseLogicLayer.csproj.CoreCompileInputs.cache
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\DatabaseLogicLayer\bin\Debug\DatabaseLogicLayer.dll
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\DatabaseLogicLayer\bin\Debug\DatabaseLogicLayer.pdb
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\DatabaseLogicLayer\bin\Debug\Entities.dll
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\DatabaseLogicLayer\bin\Debug\Entities.pdb
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\DatabaseLogicLayer\obj\Debug\DatabaseLogicLayer.csproj.CopyComplete
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\DatabaseLogicLayer\obj\Debug\DatabaseLogicLayer.dll
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\DatabaseLogicLayer\obj\Debug\DatabaseLogicLayer.pdb
