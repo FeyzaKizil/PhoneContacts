@@ -1,13 +1,6 @@
 Phone Contacts
 =============
-
-
 **Table of Contents**
-
-[TOCM]
-
-[TOC]
-
 #DatabaseLogicLayer Class Library
 ##DLL Class
 #BusinessLogicLayer Class Library
