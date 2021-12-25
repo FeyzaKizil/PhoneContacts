@@ -9,3 +9,14 @@ D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\BusinessLogicLayer\o
 D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
 D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
 D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution-V2\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution-V2\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution-V2\BusinessLogicLayer\bin\Debug\DatabaseLogicLayer.dll
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution-V2\BusinessLogicLayer\bin\Debug\Entities.dll
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution-V2\BusinessLogicLayer\bin\Debug\DatabaseLogicLayer.pdb
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution-V2\BusinessLogicLayer\bin\Debug\Entities.pdb
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution-V2\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution-V2\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution-V2\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution-V2\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+D:\Users\FEYZA\Visual Studio Projects\PhoneContactsSolution-V2\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
