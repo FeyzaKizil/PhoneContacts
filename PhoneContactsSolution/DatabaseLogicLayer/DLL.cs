@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DatabaseLogicLayer
 {
-    public class DLL : Base
+    public class DLL
     {
 
         SqlConnection con;
@@ -37,24 +37,28 @@ namespace DatabaseLogicLayer
 
         public int LoginCheck(myUser U)
         {
-            myTryCatch(() =>
+            try
             {
                 cmd = new SqlCommand("select count(*) from myUser where Username = @Username and Password = @Password", con);
                 cmd.Parameters.Add("@Username", SqlDbType.NVarChar).Value = U.Username;
                 cmd.Parameters.Add("@Password", SqlDbType.NVarChar).Value = U.Password;
                 ConnectionSet();
                 ReturnValue = (int)cmd.ExecuteScalar();
-
-            }, () =>
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
             {
                 ConnectionSet();
-            });
+            }
             return ReturnValue;
         }
 
         public int AddContact(Contacts C)
         {
-            myTryCatch(() => 
+            try
             {
                 cmd = new SqlCommand("insert into Contacts (ID, Name, Lastname, PhoneNumber1, PhoneNumber2, PhoneNumber3, EmailAddress, WebAddress, Address, Info) " +
                     "values (@ID, @Name, @Lastname, @PhoneNumber1, @PhoneNumber2, @PhoneNumber3, @EmailAddress, @WebAddress, @Address, @Info)", con);
@@ -70,17 +74,21 @@ namespace DatabaseLogicLayer
                 cmd.Parameters.Add("@Info", SqlDbType.NVarChar).Value = C.Info;
                 ConnectionSet();
                 ReturnValue = cmd.ExecuteNonQuery();
-
-            }, () => 
+            }
+            catch (Exception)
             {
-                ConnectionSet(); 
-            });           
+                throw;
+            }
+            finally
+            {
+                ConnectionSet();
+            }
             return ReturnValue;
         }
 
         public int EditContact(Contacts C)
         {
-            myTryCatch(() =>
+            try
             {
                 cmd = new SqlCommand(@"update Contacts
 Set 
@@ -107,26 +115,35 @@ ID =  @ID", con);
                 cmd.Parameters.Add("@Info", SqlDbType.NVarChar).Value = C.Info;
                 ConnectionSet();
                 ReturnValue = cmd.ExecuteNonQuery();
-
-            }, () =>
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
             {
                 ConnectionSet();
-            });            
+            }
             return ReturnValue;
         }
 
         public int DeleteContact(Guid ID)
-        {
-            myTryCatch(() =>
+        {            
+            try
             {
                 cmd = new SqlCommand(@"delete Contacts where ID = @ID", con);
                 cmd.Parameters.Add("@ID", SqlDbType.UniqueIdentifier).Value = ID;
                 ConnectionSet();
                 ReturnValue = cmd.ExecuteNonQuery();
-            }, () =>
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
             {
                 ConnectionSet();
-            });
+            }
             return ReturnValue;
         }
 
