@@ -19,7 +19,7 @@ namespace DatabaseLogicLayer
 
         public DLL()
         {
-            con = new SqlConnection("data source=MYLOVE\\SQLEXPRESS01; initial catalog=PhoneContacts; user Id=sa; password=1234;");
+            con = new SqlConnection("data source=SQLNAME; initial catalog=PhoneContacts; user Id=sa; password=1234;");
             //Sql Connection Address
         }
 
